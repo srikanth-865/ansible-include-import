@@ -1,4 +1,4 @@
-- name: Its a main role
-  debug:
-   msg: "its a main role calling a role-1 "
+-  name: its a main role
+   debug:
+    msg: "its a main role calling a role-1 "
 - role-1
