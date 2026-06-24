@@ -1,4 +1,5 @@
 -  name: its a main role
+   hosts: local
    debug:
     msg: "its a main role calling a role-1 "
 - role-1
