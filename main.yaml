@@ -3,6 +3,3 @@
    connection: local
    roles:
     - role-1
-   tasks:
-    - debug:
-        msg: "its a main role calling role-1"
