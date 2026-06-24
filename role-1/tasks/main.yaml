@@ -1,6 +1,4 @@
 - name: This is role 1 task
-  debug:
-    msg: " Hi i am in role 1" 
   #import_role:
   include_role:
     name: common
