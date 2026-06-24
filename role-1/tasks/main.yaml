@@ -7,4 +7,3 @@
 - name: importing file
   import_role:
     name: common
-    file_path: main
