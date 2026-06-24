@@ -3,3 +3,6 @@
   include_role:
     name: common
   when: os == "RedHat"
+  loop:
+  - srikanth
+  - sreedhar

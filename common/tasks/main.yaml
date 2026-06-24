@@ -4,7 +4,9 @@
 - name: This is common directory
   debug:
     msg: "i am in common main  line 2  yaml"
-
+- name: changing the fact
+  set_fact:
+   os: "Debian"
 
 # - name: call role-2
 #   #import_role:
