@@ -1,8 +1,13 @@
 - name: This is common directory
   debug:
-    msg: "i am in common main yaml"
-- name: call role-2
-  #import_role:
-  include_role:
-    name: role-3
+    msg: "i am in common main  line 1yaml"
+- name: This is common directory
+  debug:
+    msg: "i am in common main  line 2  yaml"
+
+
+# - name: call role-2
+#   #import_role:
+#   include_role:
+#     name: role-3
   
