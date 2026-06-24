@@ -1,9 +1,9 @@
 - name: This is common directory
   debug:
-    msg: "i am in common main  line 1yaml"
+    msg: "i am in common main  line 1 yaml {{ item }}"
 - name: This is common directory
   debug:
-    msg: "i am in common main  line 2  yaml"
+    msg: "i am in common main  line 2  yaml {{ item }}"
 - name: changing the fact
   set_fact:
    os: "Debian"
