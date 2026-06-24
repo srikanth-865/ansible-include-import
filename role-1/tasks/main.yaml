@@ -1,6 +1,6 @@
 - name: This is role 1 task
-  #import_role:
-  include_role:
+  import_role:
+ # include_role:
     name: common
   when: os == "RedHat"
   loop:
